@@ -65,10 +65,10 @@ btnSearch.onclick = async function () {
           img.src = recipe.strMealThumb;
           h2.textContent = recipe.strMeal;
           p.textContent = recipe.strInstructions;
-
+          
+          //console.log("INstructions ", p.textContent);
 
           const keyItems = Object.keys(recipe);
-
 
           console.log(keyItems);
 

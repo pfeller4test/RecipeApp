@@ -1,6 +1,6 @@
 function ConvertRecipe(recipe) {
     const ingredients = [];
-    console.log(recipe);
+    console.log("recipe ", recipe);
 
     ingredients.push(new Ingredient(recipe.strIngredient1, recipe.strMeasure1));
     ingredients.push(new Ingredient(recipe.strIngredient2, recipe.strMeasure2));
@@ -42,5 +42,6 @@ class Ingredient {
       this.name = name;
       this.measurement = measurement;
     };
-    
 }
+
+
